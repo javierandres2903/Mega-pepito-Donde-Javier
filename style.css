@@ -13,8 +13,8 @@
   --body:"Outfit","Segoe UI",system-ui,sans-serif;
 }
 *{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth;scroll-padding-top:84px}
-body{font-family:var(--body);background:var(--black);color:var(--text);line-height:1.5;-webkit-font-smoothing:antialiased;padding-bottom:96px;overflow-x:hidden}
+html{scroll-behavior:smooth;scroll-padding-top:84px;overflow-x:clip;overscroll-behavior-x:none;touch-action:manipulation}
+body{font-family:var(--body);background:var(--black);color:var(--text);line-height:1.5;-webkit-font-smoothing:antialiased;padding-bottom:96px;overflow-x:clip}
 img{max-width:100%;display:block}
 a{color:var(--yellow)}
 button{font-family:inherit;cursor:pointer}
